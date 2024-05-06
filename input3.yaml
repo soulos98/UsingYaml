@@ -1,0 +1,20 @@
+factories:
+  - functionCode: "PING"
+    funcParams:
+      host: "example.com"
+      port: 80
+      param1: 100
+      param2: 200
+      param3: 300
+
+  - functionCode: APIA
+    funcParams:
+      host: "api.example.com"
+      port: 443
+      param2: 500
+
+  - functionCode: APIB
+    funcParams:
+      host: "anotherapi.example.com"
+      port: 8080
+      param2: 600
